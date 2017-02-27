@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-![alt tag](/home/hagerelsayed/Desktop/TicTacToe.png)
+![alt text](/home/hagerelsayed/Desktop/TicTacToe.png?raw=true "Tic Tac Toe")
