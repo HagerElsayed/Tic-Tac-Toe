@@ -1,0 +1,120 @@
+.btn {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-background-radius: 20px 20px 20px 20px; 
+    -fx-border-radius: 20px 20px 20px 20px; 
+    -fx-border-width: 2px;
+    -fx-font-family:verdana;
+    -fx-font-weight: Bold;
+    -fx-font-size: 18px;
+    -fx-text-fill: #e91e63;
+
+
+}
+.btn:hover {
+    -fx-cursor: hand;
+}
+
+.mainBox {
+    -fx-background-color: linear-gradient( #EDDE5D 0%, #F09819 97%);
+}
+.letter {
+    -fx-stroke: #e91e63;
+    -fx-fill: transparent;
+    -fx-stroke-type: outside;
+    -fx-stroke-width: 5px;
+    -fx-text-alignment: center;
+    -fx-padding: LABEL_PADDING_TOP LABEL_PADDING_RIGHT LABEL_PADDING_BOTTOM 20;
+    -fx-font-family: "Segoe Print";
+    -fx-font-size: 70px;
+    -fx-font-weight: bold;
+}
+.general-text{
+    -fx-font-family: "Segoe Print";
+    -fx-font-size: 15px;
+    -fx-font-style: italic;
+    -fx-text-fill: black;
+
+
+}
+.winText{
+    -fx-font-family: "Segoe Print";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-fill:#e91e63;
+    -fx-font-style: italic;
+}
+
+.hardLuck-text{
+    -fx-font-family: "Segoe Print";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-fill:red;
+    -fx-font-style:italic;
+    
+}
+.cell{
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #e91e63;
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-background-image: url("/images/lbl.png");
+    -fx-text-fill: #2196f3;
+    -fx-foreground-color: transparent;
+    /*    -fx-text-stroke: #333333;
+        -fx-stroke-width: 1;*/
+
+
+}
+
+.mediaView{
+    -fx-border-radius: 20;
+    
+    
+}
+
+
+.custom-text-field
+{
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 5, 5, 5,5;
+    -fx-padding: 0.166667em;
+}
+.custom-text-field:hover
+{
+    -fx-background-color: transparent, #909090, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+}
+
+.custom-text-field:focused
+{
+    -fx-background-color: transparent, #e91e63, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+}
+
+
+.menu-bar{
+    -fx-background-color: #f0cd90;
+    -fx-border-color:   #F09819;
+    -fx-border-width: 2
+
+}
+.menu:hover {
+    -fx-background-color: #e91e63;
+
+}
+.menu:focused {
+    -fx-background-color: #e91e63;
+
+}
+.menu-item:hover{
+    -fx-background-color: #e91e63;
+}
